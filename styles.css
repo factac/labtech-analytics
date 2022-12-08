@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Fira+Sans+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+html, body {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+h1, h2, h3, h4, h5, nav ul li a, #methods thead {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  color: #00a598;
+}
+
+a:hover {
+    -moz-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    transition: color .2s ease-in;
+    color: #F90D43; 
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  
+}
+
+/******************************************************/
+
+nav h1 {
+  margin: 0;
+  margin-right: 1.5rem;
+}
+
+nav ul {
+  margin-top: 2.4rem;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline; 
+}
+
+nav ul li a {
+  margin-left: 5%;
+  padding: 0 0 0.3rem 0; /* underline */
+  line-height: 1.2; /* underline */
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline;
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+nav ul li a:hover, 
+#methods thead tr th {
+  border-bottom: .2rem solid #00a598; /* underline */
+  background-color: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  border-color: #00a598;
+}
+
+.icon-bar {
+  background-color: #00a598;
+}
+
+@media screen and (max-width: 992px) {
+  nav ul {
+      margin-top: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    margin-top: 0.8rem;
+  }
+  nav ul li a {
+    display: list-item;
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  nav ul li a:hover {
+    border-bottom: none;
+  }
+  h2 {
+    margin-top: 1rem;
+  }
+  .navbar {
+    margin-bottom: 0;
+  }
+  nav h1 {
+    margin-left: 1rem;
+  }
+}
+
+
+/******************************************************/
+
+
+#methods table {
+  font-size: 0.9rem;
+  text-align: center;
+  
+}
+
+#methods thead tr th {
+  text-transform: uppercase;
+  border-top: none;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/******************************************************/
+
+#team img {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: .2rem solid #00a598;
+}
+
+#team h3 {
+  margin: 1rem 0;
+}
+
+#team h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+#team p {
+  font-size: 0.9rem;
+}
+
+/******************************************************/
+
+#team .owl-carousel {
+  text-align: center;
+}
+
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+  background-color: #00a598;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  border-radius: 50%;
+  -moz-transition: background-color .2s ease-in;
+  -o-transition: background-color .2s ease-in;
+  -webkit-transition: background-color .2s ease-in;
+  transition: background-color .2s ease-in;
+}
+
+.owl-dot span {
+	background-color: rgba(8, 174, 135, 0.5)  !important;
+}
+
+.owl-dot.active span {
+	background-color: #00a598 !important;
+}
+
+.owl-dot active {
+	
+}
+
+.owl-carousel .owl-nav .owl-next:hover, .owl-carousel .owl-nav .owl-prev:hover {
+  background-color: #c48fc0;
+} 
+
+/******************************************************/
+
+#tools h3 {
+  text-align: center;
+}
+
+#tools ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/******************************************************/
+
+#partners .row {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+#partners img {
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************************/
+
+#contacts span {
+/*   font-size: 0.8rem; */
+}
+
+
+.image-contacts {
+	width: 100%;
+}
+
+#antibiotics {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+#antibiotics ol li {
+	
+}
+
+.price-list-line th, 
+.price-list-line td {
+  border-top-width: 3px !important;
+}
+
+
+.jumbotron {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
